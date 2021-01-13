@@ -1,0 +1,62 @@
+/* ================================================= */
+@media (max-width: 1399.98px) {
+	.banner-section {
+		height: 65vh;
+	}
+}
+@media (max-width: 1199.98px) {
+	.banner-content {
+		width: 80%;
+	}
+}
+@media (max-width: 991.98px) {
+	.banner-section {
+		height: 60vh;
+	}
+	.banner-content {
+		width: 90%;
+		margin-top: 190px;
+	}
+	.about-content {
+		width: 100%;
+	}
+	.services-section p {
+		width: 100%;
+	}
+	.contact-box {
+		width: 100%;
+	}
+}
+@media (max-width: 768px) {
+	.main-menu ul{
+		display: none;
+	}
+	.bar-icon {
+		display: block;
+	}
+	.banner-content h1 {
+		font-size: 40px;
+	}
+	.footer-social-icons ul{
+		text-align: center;
+	}
+	.copyright-sec {
+	    -webkit-box-pack: center;
+	        -ms-flex-pack: center;
+	            justify-content: center;
+	}
+	
+}
+@media (max-width: 575.98px) {
+	.about-content h2, .services-section h2, .portfolio-head h2, .contact-box h2 {
+		font-size: 30px;
+	}
+}
+@media (max-width: 480px) {
+	.banner-content h1 {
+		font-size: 35px;
+	}
+	.contact-bottom label {
+		font-size: 11px;
+	}
+}

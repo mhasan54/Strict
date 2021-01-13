@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Strict - A Single Page Website</title>
+	<!-- ============= Favicon Icon ==================== -->
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	<!-- ============= Font Awesome ==================== -->
+	<link rel="stylesheet" href="css/fonts.css">
+	<!-- ============= Bootstrap ==================== -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- ============= UI css ==================== -->
+	<link rel="stylesheet" href="css/uikit.min.css">
+	<!-- ============= Main css ==================== -->
+	<link rel="stylesheet" href="style.css">
+	<!-- ============= Responsive css ==================== -->
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body id="home">
+	<!-- =================== START HEADER AREA ==================== -->
+	<header>
+		<nav class="nav" uk-sticky="top: 500; animation: uk-animation-slide-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-8">
+						<a href="#home">
+							<img src="img/logo.png" alt="strict logo" class="logo">
+						</a>
+					</div>
+					<div class="col-md-6 col-4">
+						<div class="main-menu">
+							<ul>
+								<li class="active"><a href="#home">home</a></li>
+								<li><a href="#about">about</a></li>
+								<li><a href="#services">services</a></li>
+								<li><a href="#portfolio">portfoliio</a></li>
+								<li><a href="#contact">contact</a></li>
+							</ul>
+						</div>
+						<div class="bar-icon">
+							<i class="fa fa-bars"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- MOBILE MENU -->
+			<div class="mobile-menu">
+				<ul>
+					<li class="active"><a href="#home">home</a></li>
+					<li><a href="#about">about</a></li>
+					<li><a href="#services">services</a></li>
+					<li><a href="#portfolio">portfoliio</a></li>
+					<li><a href="#contact">contact</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<!-- =================== END HEADER AREA ==================== -->
+
+	<!-- =================== START BANNER AREA ==================== -->
+	<div class="banner-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="banner-content">
+						<h1 uk-scrollspy="cls: uk-animation-slide-right; repeat: true">strict web tamplate</h1>
+						<p uk-scrollspy="cls: uk-animation-slide-left; repeat: true">STRICT is a responsive theme with a a clean and minimal look.</p>
+						<div class="banner-button" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">
+							<a href="#">call us</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- =================== END BANNER AREA ==================== -->
+
+	<!-- =================== START SERVICSE AREA ==================== -->
+	<div  id="about" class="about-section" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="about-content">
+						<h2>Simple & pure design.</h2>
+						<p>Designers everywhere gush with admiration upon seeing a web design and exclaim "its beautiful, it's so clean!". There are a countless number of webdesign round-ups dedicated to 'clean' design and it is a term thrown around quite a bit in the web design community. It can be easy to spot a good example of clean design.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- =================== END BANNER AREA ==================== -->
+
+	<!-- =================== START SERVICES AREA ==================== -->
+	<div id="services" class="services-section" uk-scrollspy="cls: uk-animation-slide-left; target: .service-box; delay: 200; repeat: true">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2>these services we provide</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae velit quae tenetur exercitationem nisi quis deserunt ipsa quam.</p>
+				</div>
+				<div class="col-md-4">
+					<div class="service-box">
+						<div class="icon-box">
+							<i class="fa fa-mobile-alt"></i>
+						</div>
+						<h4>Optimized for all devices</h4>
+						<p>STRICT has been designed to be fully responsive on all devices</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="service-box">
+						<div class="icon-box">
+							<i class="fa fa-rocket"></i>
+						</div>
+						<h4>Clean & Minimal Design</h4>
+						<p>This multipurpose theme is especially created to be used for different projects.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="service-box">
+						<div class="icon-box">
+							<i class="fa fa-icons"></i>
+						</div>
+						<h4>Font Awesome Icon</h4>
+						<p>This multipurpose theme is especially created to be used for different projects.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- =================== END SERVICES AREA ==================== -->
+
+	<!-- =================== START PORTFOLIO AREA ==================== -->
+	<div id="portfolio" class="portfolio-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="portfolio-head">
+						<h2>showcase your work like a pro</h2>
+						<p>Contact me if you like my work</p>
+					</div>
+					<div class="portfolio-button" uk-scrollspy="cls: uk-animation-slide-top; repeat: true">
+						<button type="button" data-filter="all">all</button>
+						<button type="button" data-filter=".web">web design</button>
+						<button type="button" data-filter=".development">web deveopment</button>
+						<button type="button" data-filter=".wordpress">wordPress</button>
+						<button type="button" data-filter=".seo">seo</button>
+					</div>
+				</div>
+			</div>
+			<div class="row port mixitup-plugin" uk-lightbox>
+				<div class="col-xl-3 col-lg-4 col-md-6 mix seo web">
+					<div class="img-box" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+						<span>portfolio item 01</span>
+						<a href="img/1.jpg">
+							<img src="img/1.jpg" alt="portfolio">
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-6 mix development">
+					<div class="img-box" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+						<span>portfolio item 02</span>
+						<a href="img/2.jpg">
+							<img src="img/2.jpg" alt="portfolio">
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-6 mix web">
+					<div class="img-box" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+						<span>portfolio item 03</span>
+						<a href="img/3.jpg">
+							<img src="img/3.jpg" alt="portfolio">
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-6 mix wordpress development">
+					<div class="img-box" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+						<span>portfolio item 04</span>
+						<a href="img/4.jpg">
+							<img src="img/4.jpg" alt="portfolio">
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-6 mix web">
+					<div class="img-box" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+						<span>portfolio item 05</span>
+						<a href="img/5.jpg">
+							<img src="img/5.jpg" alt="portfolio">
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-6 mix seo">
+					<div class="img-box" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+						<span>portfolio item 06</span>
+						<a href="img/6.jpg">
+							<img src="img/6.jpg" alt="portfolio">
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-6 mix wordpress">
+					<div class="img-box" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+						<span>portfolio item 07</span>
+						<a href="img/7.jpg">
+							<img src="img/7.jpg" alt="portfolio">
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-6 mix seo development">
+					<div class="img-box" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+						<span>portfolio item 08</span>
+						<a href="img/8.jpg">
+							<img src="img/8.jpg" alt="portfolio">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- =================== END PORTFOLIO AREA ==================== -->
+
+	<!-- =================== START CONTACT AREA ==================== -->
+	<div id="contact" class="contact-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="contact-box" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">
+						<h2>Stay With Us</h2>
+						<p>We ensure quality & support</p>
+						<input type="text" placeholder="Enter Yout Name">
+						<input type="email" placeholder="Enter Yout Email">
+						<textarea rows="8" placeholder="Write Your Message"></textarea>
+						<div class="row contact-bottom justify-content-between">
+							<div class="col-5">
+								<input type="checkbox"><label>Subscribe Newsletter</label>
+							</div>
+							<div class="col-5 text-right" uk-scrollspy="cls: uk-animation-shake; repeat: true">
+								<input type="submit" value="send">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- =================== END CONTACT AREA ==================== -->
+
+	<!-- =================== START FOOTER AREA ==================== -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="footer-social-icons">
+						<ul>
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+							<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="copyright-sec">
+						<p>Copyright 2021 | All Rights Reserved To <a href="#">strict.com</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- =================== END FOOTER AREA ==================== -->
+
+	<!-- =============== JS FILES ================= -->
+	<script src="js/jquery.min.js"></script>
+	<!-- <script src="js/bootstrap.min.js"></script> -->
+	<script src="js/uikit.min.js"></script>
+	<script src="js/mixitup.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
