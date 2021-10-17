@@ -110,17 +110,15 @@ h1,h2,h3,h4,h5,h6 {
 
 /* =========== START BANNER CSS =============*/
 .banner-section {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('img/banner.jpg');
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('img/banner.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/banner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    padding: 120px 0;
 }
 .banner-content {
     width: 50%;
     margin: auto;
-    margin-top: 220px;
     text-align: center;
 }
 .banner-content h1 {
