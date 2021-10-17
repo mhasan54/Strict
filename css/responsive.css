@@ -1,21 +1,12 @@
 /* ================================================= */
-@media (max-width: 1399.98px) {
-	.banner-section {
-		height: 65vh;
-	}
-}
 @media (max-width: 1199.98px) {
 	.banner-content {
 		width: 80%;
 	}
 }
 @media (max-width: 991.98px) {
-	.banner-section {
-		height: 60vh;
-	}
 	.banner-content {
 		width: 90%;
-		margin-top: 190px;
 	}
 	.about-content {
 		width: 100%;
