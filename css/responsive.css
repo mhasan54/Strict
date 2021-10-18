@@ -19,6 +19,9 @@
 	}
 }
 @media (max-width: 768px) {
+	.banner-section {
+	padding: 100px 0;
+	}
 	.main-menu ul{
 		display: none;
 	}
