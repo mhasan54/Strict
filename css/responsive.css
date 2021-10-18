@@ -54,3 +54,8 @@
 		font-size: 11px;
 	}
 }
+@media (max-width: 380px) {
+	.copyright-sec p {
+    font-size: 14px;
+	}
+}
